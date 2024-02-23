@@ -1,12 +1,13 @@
 <h1 align="center">ThrustQuencher</h1>
 <p align="center">
   <a href="https://thristquencher.netlify.app/" target="_blank">
-  <img width="500" alt="Screenshot 2024-02-18 at 3 53 57 PM" src="https://github.com/djsmacker01/ThristQuencher/assets/144272001/f11b05e9-4491-42e3-8767-54d8d7c8816d">
+
+  <img width="500" alt="" src="images/thristquencher.png">
   </a>
 </p>
 
 
-[ThristQuencher](https://drink-dex.netlify.app/) ThirstQuencher stands as your ultimate cocktail companion, seamlessly enabling you to explore a myriad of cocktails with detailed recipes, ingredients, captivating visuals, and all the essentials to elevate your mixology skills from the comfort of your home. Simply initiate a search for your desired cocktail, and let the journey to mastering mixology unfold before you
+[ThristQuencher](https://thristquencher.netlify.app/) ThirstQuencher stands as your ultimate cocktail companion, seamlessly enabling you to explore a myriad of cocktails with detailed recipes, ingredients, captivating visuals, and all the essentials to elevate your mixology skills from the comfort of your home. Simply initiate a search for your desired cocktail, and let the journey to mastering mixology unfold before you
 
 ## Features
 - Search for a cocktail
@@ -19,7 +20,7 @@
 - Mobile responsive styling
 
 ## Live Site
-Live Site [Here](https://drink-dex.netlify.app/)
+Live Site [Here](https://thristquencher.netlify.app/)
 
 ## Resources
 - API: [thecocktailDB](https://www.thecocktaildb.com/api.php)
