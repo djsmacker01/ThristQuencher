@@ -167,7 +167,7 @@ h6 {font-size: 2.2rem;}
 
 /* styling ingredients section */
 .ingredients-container {
-  background: #8f8f73;
+  background: #383703;
   color: #fff;
   box-shadow: -10px 5px 4px #6e6e58;
 }
@@ -190,10 +190,10 @@ h6 {font-size: 2.2rem;}
 
 /* instructions section */
 .instructions-container {
-  background: #b38c919f;
+  background: #1b87829f;
   color: #000;
   margin-top: 4rem;
-  box-shadow: -10px 5px 4px rgb(144, 106, 111);
+  box-shadow: -5px 5px 4px rgb(110, 97, 99);
 }
 
 .instructions-p {
