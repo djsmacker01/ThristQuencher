@@ -5,6 +5,7 @@
   </a>
 </p>
 
+
 [ThristQuencher](https://drink-dex.netlify.app/) ThirstQuencher stands as your ultimate cocktail companion, seamlessly enabling you to explore a myriad of cocktails with detailed recipes, ingredients, captivating visuals, and all the essentials to elevate your mixology skills from the comfort of your home. Simply initiate a search for your desired cocktail, and let the journey to mastering mixology unfold before you
 
 ## Features
@@ -22,4 +23,4 @@ Live Site [Here](https://drink-dex.netlify.app/)
 
 ## Resources
 - API: [thecocktailDB](https://www.thecocktaildb.com/api.php)
-- 
+
