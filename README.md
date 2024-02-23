@@ -1,11 +1,11 @@
-<h1 align="center">DrinkDex</h1>
+<h1 align="center">ThrustQuencher</h1>
 <p align="center">
   <a href="https://drink-dex.netlify.app/" target="_blank">
   <img width="500" alt="Screenshot 2024-02-18 at 3 53 57 PM" src="https://github.com/raisa-d/DrinkDex/assets/144272001/f11b05e9-4491-42e3-8767-54d8d7c8816d">
   </a>
 </p>
 
-[DrinkDex](https://drink-dex.netlify.app/) is your go-to cocktail companion, allowing you to effortlessly search for any cocktail, providing detailed recipes, ingredients, visuals, and everything you need to become a master mixologist at home.
+[ThristQuencher](https://drink-dex.netlify.app/) ThirstQuencher stands as your ultimate cocktail companion, seamlessly enabling you to explore a myriad of cocktails with detailed recipes, ingredients, captivating visuals, and all the essentials to elevate your mixology skills from the comfort of your home. Simply initiate a search for your desired cocktail, and let the journey to mastering mixology unfold before you
 
 ## Features
 - Search for a cocktail
@@ -22,4 +22,4 @@ Live Site [Here](https://drink-dex.netlify.app/)
 
 ## Resources
 - API: [thecocktailDB](https://www.thecocktaildb.com/api.php)
-- Color palette: [Witchcraft](https://www.colorhub.app/browse/witchcraft)
+- 
