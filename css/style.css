@@ -59,16 +59,17 @@ h6 {font-size: 2.2rem;}
   margin-bottom: 3rem;
 }
 .marquee{
-  margin-top: 20px;
+  margin-bottom:2rem;
+  
 }
 
 #blurb {
   font-size: 2.4rem;
-  max-width: 55rem;
-  background: #6E6E58;
+  max-width: 70rem;
+  background: #1d1d1c;
   color: #fff;
   padding:2rem;
-  border-radius: 15px;
+  border-radius: 10px;
   line-height: 2.8rem;
 }
 
