@@ -1,0 +1,300 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* root font size */
+html {
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+  background: #fff;
+}
+
+/* default font size is 16px */
+body {
+  font-size: 1.6rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* all headings bold */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+/* heading font sizes */
+h1 {font-size: 3.2rem;}
+h2 {font-size: 3rem;}
+h3 {font-size: 2.8rem;}
+h4 {font-size: 2.6rem;}
+h5 {font-size: 2.4rem;}
+h6 {font-size: 2.2rem;}
+
+/* class to hide things */
+.hidden {
+  display: none !important;
+}
+
+.body {
+  border-radius: 25px;
+  margin: 3rem 0;
+  padding: 3rem 5rem;
+  background: #cdd2e0;
+  box-shadow: -10px 5px 4px #b1b5c0;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/* HEADER */
+/* logo/title */
+#drinkdex {
+  margin-bottom: 3rem;
+}
+
+#blurb {
+  font-size: 2.4rem;
+  max-width: 55rem;
+  background: #6E6E58;
+  color: #fff;
+  padding:2rem;
+  border-radius: 15px;
+  line-height: 2.8rem;
+}
+
+/* center drink image */
+#drink-img{
+  display: block;
+  margin: 2rem auto 0 auto;
+  border-radius: 50%;
+  border: 2px solid #e9ecf4;
+}
+
+/* styling drink name and 'Ingredients' */
+.drink-name, .ingredients-container h3, .instructions-container h3 {
+  font-size: 2.4rem;
+}
+
+.drink-name {
+  text-align: center;
+}
+
+.arrows {
+  color: #e9ecf4;
+}
+
+/* styling drink picture and title */
+.drink-container {
+  width: 35rem;
+  background: #7da3b0;
+  border-radius: 25px;
+  padding: 2rem;
+  border-left: 2px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: -10px 5px 4px #698993;
+  justify-content: center;
+  max-height: 50rem;
+  align-items: center;
+}
+
+/* arrows */
+.arrows > i {
+  border-radius: 25px;
+  background: #164e63;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.arrows > i:hover {
+  background: #216f8c;
+  cursor: pointer;
+}
+
+.fa-arrow-left {
+  margin-right: 2rem;
+}
+
+/* styling search bar */
+.searchBar {
+  margin-bottom: 3rem;
+}
+
+.searchBar input, .searchBar button {
+  height: 3.3rem;
+  font-size: 1.6rem;
+  background: #e9ecf4;
+}
+
+.searchBar button {
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  background: #B38C91;
+  font-weight: 700;
+  color: #000;
+}
+
+.searchBar input {
+  width: 20rem;
+  border-radius: 25px 0 0 25px;
+  padding-left:1rem;
+}
+
+/* styling ingredients section */
+.ingredients-container {
+  background: #8f8f73;
+  color: #fff;
+  box-shadow: -10px 5px 4px #6e6e58;
+}
+
+.ingredient-list {
+  margin-top: 2rem;
+  font-size: 2rem;
+  list-style: decimal;
+}
+
+.ingredient-list li {
+  margin: 0 0 1rem 1rem;
+}
+
+.ingredients-container, .instructions-container {
+  padding: 3rem;
+  border-radius: 10px;
+  min-width: 15rem;
+}
+
+/* instructions section */
+.instructions-container {
+  background: #b38c91;
+  color: #000;
+  margin-top: 4rem;
+  box-shadow: -10px 5px 4px rgb(144, 106, 111);
+}
+
+.instructions-p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  max-width: 45rem;
+}
+
+/******************************************
+/* FLEXBOX
+/*******************************************/
+.flex-container {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.instructions-container, .ingredients-container, header, .drink-container, body, .two-column {
+  flex-flow: column;
+  align-items:center;
+}
+
+main {
+  align-items:center;
+  justify-content: center;
+}
+
+.two-column {
+  margin-left: 4rem;
+}
+
+/* FOOTER */
+#socials {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content:center;
+  margin: 3rem 0 1rem 0;
+}
+
+#socials a {
+  margin: 0 0.5rem;
+  color: #A6849D;
+}
+
+#socials a:hover {
+  color: #7DA3B0;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+#copyright a {
+  text-decoration: none;
+  color: #6E6E58;
+}
+
+#copyright a:hover {
+  color: #7DA3B0;
+  font-weight: 700;
+}
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+@media all and (max-width: 740px) {
+  main {
+    flex-flow: column;
+  }
+
+  .ingredients-container {
+    margin-top: 4rem;
+  }
+
+  .two-column {
+    margin: 0;
+  }
+
+  
+}
+
+@media all and (max-width: 515px) {
+  .drink-container {
+    width: 30rem;
+  }
+
+  .searchBar input {
+    width: 12rem;
+    font-size: 1.4rem;
+  }
+
+  .searchBar button {
+    width: 10rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media all and (max-width: 470px) {
+  button {
+    display:block;
+  }
+
+  .searchBar input {
+    border-radius: 25px 25px 0 0;
+  }
+
+  .searchBar button {
+    border-radius: 0 0 25px 25px;
+    border-top: 0;
+  }
+
+  .searchBar input, .searchBar button {
+    min-width: 15rem;
+  }
+
+  body {
+    margin: 1rem 5rem;
+  }
+}
