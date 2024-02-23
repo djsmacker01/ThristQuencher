@@ -1,6 +1,6 @@
 <h1 align="center">ThrustQuencher</h1>
 <p align="center">
-  <a href="https://drink-dex.netlify.app/" target="_blank">
+  <a href="https://thristquencher.netlify.app/" target="_blank">
   <img width="500" alt="Screenshot 2024-02-18 at 3 53 57 PM" src="https://github.com/djsmacker01/ThristQuencher/assets/144272001/f11b05e9-4491-42e3-8767-54d8d7c8816d">
   </a>
 </p>
