@@ -55,8 +55,11 @@ h6 {font-size: 2.2rem;}
 /*******************************************/
 /* HEADER */
 /* logo/title */
-#drinkdex {
+#logo {
   margin-bottom: 3rem;
+}
+.marquee{
+  margin-top: 20px;
 }
 
 #blurb {
